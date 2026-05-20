@@ -16,7 +16,7 @@
 
 ## What is .NET Framework?
 
-**.NET Framework** is a platform for building, deploying, and running applications and services that leverage Microsoft technologies. It provides a runtime environment known as the **Common Language Runtime (CLR)**, which handles memory management, security, and application execution.
+**.NET Framework** is a platform for building, deploying, and running applications and services that leverage Microsoft technologies. It provides a runtime environment known as the **Common Language Runtime (CLR)**, which handles memory management, security, and application execution. As of 2026, it remains the supported Windows-only runtime for legacy desktop and server applications, with the current service branch centered on .NET Framework 4.8.1 and ongoing security and compatibility updates delivered through Windows servicing.
 
 ---
 
@@ -58,6 +58,10 @@
 | **2018** | **.NET Framework 4.7.2** | - Enhanced cryptography with AES-GCM and AES-CCM. |
 | **2019** | **.NET Framework 4.8**   | - Last major version, added high DPI improvements and updated ZLib. |
 | **2022** | **.NET Framework 4.8.1** | - Added ARM64 support and improved accessibility features. |
+| **2023** | **.NET Framework 4.8.1** | - Continued Windows servicing and compatibility updates; supported on Windows 11 and Windows Server 2022. |
+| **2024** | **.NET Framework 4.8.1** | - Maintenance focus, security updates, and tooling support via Visual Studio; stable choice for legacy Windows apps. |
+| **2025** | **.NET Framework 4.8.1** | - Continued maintenance mode; Microsoft recommends new apps use .NET 8/9, while legacy enterprise apps remain supported. |
+| **2026** | **.NET Framework 4.8.1** | - Current supported release; still used for legacy WinForms, WPF, ASP.NET Web Forms, and Windows services with ongoing security updates. |
 
 ---
 
@@ -110,6 +114,7 @@
 - .NET Framework is foundational for traditional Windows development.
 - While it has been superseded by .NET (Core and 5+), it remains relevant for maintaining and running legacy Windows applications.
 - The transition to .NET Core and later versions aims to address cross-platform needs and modern application demands.
+- For new applications, Microsoft recommends modern .NET (such as .NET 8/9/10) for cross-platform, cloud, and performance benefits, while preserving .NET Framework for legacy Windows-only workloads.
 
 ---
 
